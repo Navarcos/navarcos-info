@@ -50,7 +50,7 @@ jobs:
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Go in subdirectory
         run: |
-          cd ./exampleSite
+          cd exampleSite
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
