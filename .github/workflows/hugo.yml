@@ -47,7 +47,11 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true
+            sudo npm install -g postcss-cli
+            sudo npm install -g npx --force
+            npm install tailwindcss@latest
+            "
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
