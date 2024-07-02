@@ -44,7 +44,7 @@ link = "contact"
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
 [search]
-enable = true
+enable = false
 primary_color = "#121212"
 include_sections = ["blog"]
 show_image = true
@@ -62,10 +62,10 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
-author = "zeon.studio"
-image = "images/og-image.png"
+keywords = ["Navarcos"]
+description = "Navarcos"
+author = "Activa Digital"
+image = "images/navarcos.png"
 
 
 # site verifications
