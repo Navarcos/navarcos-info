@@ -21,7 +21,7 @@ features:
     button:
       enable: true
       label: "Get Started"
-      link: "https://github.com/navarcos"
+      link: "https://github.com/Navarcos/navarcos"
 
   - title: "What Can Navarcos Do for Me?"
     image: "/images/service-2.png"
@@ -34,6 +34,6 @@ features:
     button:
       enable: true
       label: "Get Started Now"
-      link: "https://github.com/navarcos"
+      link: "https://github.com/Navarcos/navarcos"
 
 ---
