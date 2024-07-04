@@ -6,8 +6,8 @@ banner:
   image: "/images/marchio_navarcos.png"
   button:
     enable: false
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/hugoplate"
+    label: "Get Started"
+    link: "https://github.com/navarcos"
 
 # Features
 features:
@@ -19,9 +19,9 @@ features:
       - Provide a set of REST API to manage Kubernetes resources .
       - A web administration site, shows informations about pods, persistent volume , config maps , helm charts and so on...
     button:
-      enable: false
-      label: "Get Started Now"
-      link: "#"
+      enable: true
+      label: "Get Started"
+      link: "https://github.com/navarcos"
 
   - title: "What Can Navarcos Do for Me?"
     image: "/images/service-2.png"
@@ -32,8 +32,8 @@ features:
       - "Automation: Streamline development and deployment workflows. You can connect your CD platform to deploy your application on kubernetes."
 
     button:
-      enable: false
+      enable: true
       label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
+      link: "https://github.com/navarcos"
 
 ---
